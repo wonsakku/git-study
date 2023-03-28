@@ -105,3 +105,36 @@ ___
 $ git pull orgin master
 ```
 
+<br> 
+
+
+### Github 초보자 체험
+
+___  
+
+```sh
+# origin의 topic branch로 변경내용 push. branch가 없을 경우 자동 생성
+$ git push origin topic
+
+# origin의 branch를 pull 받음.
+# 방법 1
+$ git checkout -b topic
+$ git fetch origin
+$ git merge orgin/topic  
+
+# 방법 2
+$ git checkout -b topic # 브랜치 생성
+$ git pull origin topic  # topic 브랜치 다운로드 및 머지
+
+# 방법 3
+$ git fetch origin # 모든 브랜치 다운로드
+$ git checkout -b topic origin/topic # 브랜치 생성 및 머지
+
+# master에서 topic 브랜치 merge 시 --squash 옵션 주기 
+$ git merge --squash topic
+
+```
+
+
+
+
