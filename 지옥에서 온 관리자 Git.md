@@ -37,4 +37,6 @@ ___
 ### branch  
 
 > git branch  
-> git branch topic
+> git branch topic  
+> git checkout master  
+> git merge topic
