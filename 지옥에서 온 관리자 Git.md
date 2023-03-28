@@ -38,7 +38,19 @@ ___
 
 ### branch  
 
+___
+
 > git branch  
 > git branch topic  
 > git checkout master  
 > git merge topic
+
+
+<br>  
+
+
+### rebase  
+
+___  
+
+> 
