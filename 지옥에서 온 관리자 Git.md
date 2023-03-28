@@ -94,4 +94,14 @@ remote: Resolving deltas: 100% (22/22), done.
 To https://github.com/wonsakku/git-study.git
  * [new branch]      master -> master
 
+```  
+
+<br>
+___
+
+### Github pull  
+
+```bash 
+$ git pull orgin master
 ```
+
