@@ -53,4 +53,8 @@ ___
 
 ___  
 
-> 
+> git rebase -i HEAD~3  
+
+- vi editor로 commit log를 어떻게 수정할지를 결정한다.  
+- 제일 과거의 commit log를 pick하고 그 이후의 log들은 squash한다.  
+- pick한 commit log를 알맞게 수정해준다.  
